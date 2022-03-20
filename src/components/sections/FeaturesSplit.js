@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Exclusive masterclass offer includes',
+    paragraph: ''
   };
 
   return (
@@ -66,14 +66,13 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  One-on-One Guidance
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  We are well aware not everyone is tech savvy, so the masterclass gives you the opportunity to enjoy from the arbitrage even when you do not have any tech background 
+                  as we will work you through the entire process.
                   </p>
               </div>
               <div className={
@@ -83,8 +82,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
+                  src={require('./../../assets/images/img_1.jpg')}
+                  alt="Features 01"
                   width={528}
                   height={396} />
               </div>
@@ -92,14 +91,12 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Arbitrage opportunities
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Get firsthand insight to other arbitage opportunities and cryto hacks!
                   </p>
               </div>
               <div className={
@@ -109,7 +106,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/img_2.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -118,14 +115,12 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+               
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Weekly Updates
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Get weekly updates on lastest market trends. All of these and many more at just a one time subscription fee of <span style={{color:"white"}}> 0.017 ETH</span>
                   </p>
               </div>
               <div className={
@@ -135,7 +130,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/img_3.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
