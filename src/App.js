@@ -3,6 +3,7 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import HelmetMetaData from './components/elements/HelmetMetaData'
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -32,13 +33,16 @@ const App = () => {
   }, [location]);
 
   return (
-    <ScrollReveal
-      ref={childRef}
-      children={() => (
-        <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-        </Switch>
-      )} />
+    <>
+      <HelmetMetaData></HelmetMetaData>
+      <ScrollReveal
+        ref={childRef}
+        children={() => (
+          <Switch>
+            <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          </Switch>
+        )} />
+    </>
   );
 }
 

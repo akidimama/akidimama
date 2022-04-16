@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="academy.binance.com/en/articles/what-are-flash-loans-in-defi" onClick={closeMenu}>Documentation</Link>
+                      <Link to={{ pathname: "https://academy.binance.com/en/articles/what-are-flash-loans-in-defi" }} target="_blank" onClick={closeMenu} > Documentation </Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Smartcontract Code</Link>
+                        <Link to={{ pathname: "https://academy.binance.com/en/articles/what-are-flash-loans-in-defi" }} target="_blank" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Smartcontract Code</Link>
                       </li>
                     </ul>}
                 </div>

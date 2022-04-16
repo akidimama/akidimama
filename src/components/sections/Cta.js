@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
+import Socials from '../elements/Socials';
 // import Input from '../elements/Input';
 
 const propTypes = {
@@ -53,8 +54,12 @@ const Cta = ({
         >
           <div >
             <h3 style={{display:"flex", textAlign:"center", justifyContent:"center"}}>
-               Join Master class now with a one time subscription fee of 0.017 ETC only. Send us a message on cytomaster@gmail.com
+               Share to atleast two platforms to join Masterclass now!
             </h3>
+            <div style={{display:"flex", textAlign:"center", justifyContent:"center"}}>
+              <Socials/>
+            </div>
+            
           </div>
           
          

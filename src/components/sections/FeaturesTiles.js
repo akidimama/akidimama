@@ -37,9 +37,15 @@ const FeaturesTiles = ({
     bottomDivider && 'has-bottom-divider'
   );
 
+  let today = new Date();
+  let dd = String(today.getDate()).padStart(2, '0') - 1; // show previous day
+  let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+  let yyyy = today.getFullYear();
+  today =  dd + '/'+ mm +  '/' + yyyy;
+
 
   const sectionHeader = {
-    title: 'Last updated March 2022',
+    title: `Last updated ${today}`,
     paragraph: 'Important update: the code has been updated so that only 250 people per day can be doing this, to reduce the chances of getting the hack noticed and fixed.'
     
   };
@@ -137,8 +143,9 @@ const FeaturesTiles = ({
   
         </p>
         <p>
-            Still need a one-one guidance? You can subscribe to our Masterclass and get access to all our arbitrage updates and more with a one time 
-            subscription fee of <span style={{color:"white"}}> 0.017 ETH</span>. Send us a message now to get started criptoTest@gmaiul.com (Serious persons only please)
+            Still need a one-one guidance? You can subscribe to our Masterclass and get access to all our arbitrage updates and more. Our masterclass fee is
+            <span style={{color:"white"}}> 0.017 ETH</span>. However. as a way of giving back to society, the masterclass is now FREE to join until end of this month. You just need 
+            to perform a simple task of sharing this article to groups on atleast two platforms and send screenshots to us.
   
         </p>
         </div>

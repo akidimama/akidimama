@@ -120,7 +120,7 @@ const FeaturesSplit = ({
                   Weekly Updates
                   </h3>
                 <p className="m-0">
-                  Get weekly updates on lastest market trends. All of these and many more at just a one time subscription fee of <span style={{color:"white"}}> 0.017 ETH</span>
+                  Get weekly updates on lastest market trends. All of these and more on Masterclass.
                   </p>
               </div>
               <div className={
